@@ -1,0 +1,1 @@
+- Clan, User, Message, Command und CommandHandler Interfaces bzw. dazugehoerige Klassen fertigstellen

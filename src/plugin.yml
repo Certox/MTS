@@ -1,0 +1,156 @@
+name: MTS
+main: me.minetime.MTS.MTS
+version: 1.0
+website: http://www.minetime.me
+author: minetime
+description: >
+             MineTime-System
+depend: [PermissionsEx]
+commands:
+  infos:
+    description: Infos zu MineTime
+    usage: /<command>
+  shop:
+    description: Shop
+    usage: /<command>
+  money:
+    description: MineTaler
+    usage: /<command>
+  wl:
+    description: whitelist
+    usage: /<command>
+  zeitsperre:
+    description: ZeitSperre
+    usage: /<command> [name] [zeit in Stunden] [grund]
+  sperre:
+    description: Sperre
+    usage: /<command> [name] [grund]
+  payshop:
+    description: payshop
+    usage: /<command> [name] [item]
+  vote:
+    description: voteanleitung
+    usage: /<command>
+  warnen:
+    description: Warnung
+    usage: /<command> [name] [grund]
+  warns:
+    description: Ruft Warnings eines Spielers ab.
+    usage: /<command> [name]
+  delwarn:
+    description: Loescht Warnungen eines Spielers.
+    usage: /<command> [name] [anzahl]
+  delsperre:
+    description: Loescht Sperre oder Zeistperre eines Spielers.
+    usage: /<command> [name]
+  logout:
+    description: Logout
+    usage: /<command>
+  logoutall:
+    description: Logout aller spieler
+    usage: /<command> [grund]
+  list:
+    description: onlineliste
+    usage: /<command> 
+  mts:
+    description: MTs-Befehl
+    usage: /<command>
+  gutschein:
+    description: Gutschein einloesen
+    usage: /<command> [gutscheincode]
+  gutscheincode:
+    description: Konsolenbefehl
+    usage: /<command> [gutscheincode]
+  votegive:
+    description: Konsolenbefehl
+    usage: /<command>
+  cc:
+    description: chat leeren
+    usage: /<command>
+  ranking:
+    description: Zeigt Top5 des Rankings an
+    usage: /<command>
+  activate:
+    description: Aktiviert Homepage Account
+    usage: /<command>
+  bewerbung:
+    description: Aktiviert Bewerbung
+    usage: /<command>
+  c:
+    description: Clan-Befehl
+    usage: /<command>
+  annehmen:
+    description: Annehmen-Befehl
+    usage: /<command>
+  cw:
+    description: Clanwarp
+    usage: /<command>
+  p:
+    description: Spieler-Befehle
+    usage: /<command>
+  globalmute:
+    description: adminbefehl
+    usage: /<command>
+  commandmute:
+    description: adminbefehl
+    usage: /<command>
+  1on1:
+    description: adminbefehl
+    usage: /<command>
+  chatcolor:
+    description: ChatColor
+    usage: /<command>
+  team:
+    description: Team
+    usage: /<command>
+  giveall:
+    description: giveall
+    usage: /<command>
+  spy:
+    description: Command spy
+    usage: /<command>
+  gsperre:
+    description: Globale Sperre
+    usage: /<command>
+  joinmsg:
+    description: Adminbefehl
+    usage: /<command>
+  rv:
+    description: Respawn Villagers.
+    usage: /<command>
+  kick:
+    description: Kick Player.
+    usage: /<command>
+  event:
+    description: Event-Command
+    usage: /<command>
+  mute:
+    description: Spieler muten
+    usage: /<command>
+  pvp:
+    description: Pvp
+    usage: /<command>
+  starter:
+    description: Starter-Kit
+    usage: /<command>
+  ask:
+    description: Support-Chat
+    usage: /<command>
+  leave:
+    description: Verlaesst Walls
+    usage: /<command>
+  walls:
+    description: Walls-Command
+    usage: /<command>
+  xray:
+    description: xRay
+    usage: /<command>
+  wf:
+    description: Wahr|Falsch Event Befehl
+    usage: /<command>
+  kf:
+    description: Knifefight Befehl
+    usage: /<command>
+  knifefight:
+    description: KnifeFight
+    usage: /<command>
